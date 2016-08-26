@@ -18,6 +18,7 @@ body {
 
 #homeBanner {
 	width: 100%;
+
 }
 
 #homeJumbo {
@@ -41,6 +42,7 @@ body {
   border-radius: 25px;
   border: 5px solid #73A768;
   box-shadow: 2px 0px 10px #000;
+
 }
 
 #aboutPageHeader > p {
@@ -56,13 +58,91 @@ body {
   font-size: 1.5em;
 }
 
-#aboutPageWell > h3 {
-
+#aboutPageWell > hr {
+  border-color: #73A768;
 }
 
 #aboutPageWell > blockquote {
   font-size: 2em;
+  border-left-color: #73A768;
 }
+
+#eppsPageHeader {
+  background-color: #A3CB9A;
+  padding: 10px 20px 10px 20px;
+  border-radius: 25px;
+  border: 5px solid #73A768;
+  margin-top: -10px;
+}
+
+#eppsPageHeader > h2 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+#eppsPageHeader > p {
+  font-size: 1.4em;
+}
+
+#eppsWell {
+  background-color: #A3CB9A;
+  border: 5px solid #73A768;
+}
+
+#eppsWell > p {
+  font-size: 1.5em;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #eppsWell {
+    margin-top: -210px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #eppsWell {
+    margin-top: -270px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #eppsWell {
+    margin-top: -340px;
+  }
+}
+
+
+/* Product Pages */
+
+#productPanel > div > h4, h3 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+#aboutPageHeader > h2 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+#aboutPageWell > h2 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+#productPanel {
+  background-color: #C7E5C7;
+  border-color: #A3CB9A;
+}
+
+#productPanel > .panel-heading {
+  background-color: #A3CB9A;
+  border-color: #A3CB9A;
+}
+
+#productPanel > div > p {
+  font-size: 1.5em;
+}
+
+#productPanel > .list-group {
+  font-size: 1.5em;
+}
+
 
 /* Misc. */
 
@@ -81,6 +161,11 @@ body {
 }
 
 /* Nav Bar */
+
+.monospace {
+  font-family: 'Oxygen Mono', monospace;
+}
+
 .navbar-default {
   background-color: #055959;
   border-color: #287e7e;
