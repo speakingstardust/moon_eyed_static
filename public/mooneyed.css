@@ -110,6 +110,68 @@ body {
   }
 }
 
+/* Contact Us */
+
+#contactPageHeader {
+  background-color: #A3CB9A;
+  padding: 10px 20px 10px 20px;
+  border-radius: 25px;
+  border: 5px solid #73A768;
+  box-shadow: 2px 0px 10px #000;
+}
+
+#contactPageHeader > h1 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+#contactPageHeader > h4 {
+  font-size: 1.5em;
+}
+
+#contact-well {
+  background-color: #A3CB9A;
+  border: 5px solid #73A768;
+}
+
+#contact-well > div > div > p {
+  font-size: 1.3em; 
+}
+
+#contactForm {
+  padding: 10px 20px 10px 20px;
+  background-color: #A3CB9A;
+  border: 5px solid #73A768;
+}
+
+#contactForm > form > .btn {
+  background-color: #35A535;
+  color: #FFF;
+  font-style: oblique;
+}
+
+#emailSection {
+  background-color: #A3CB9A;
+  border: 5px solid #73A768;
+  margin: 10px -15px 10px -15px;
+}
+
+#emailSection {
+  font-size: 1.5em;
+}
+
+#border-line {
+  border-right: 2px dotted #A9A9A9;
+}
+
+#contactFooter {
+  color: #fff;
+  background-color: #A3CB9A;
+  border: 5px solid #73A768;
+}
+
+#contactFooter > p {
+  font-size: 1.2em;
+}
 
 /* Product Pages */
 
